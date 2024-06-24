@@ -7,6 +7,14 @@
       "dependencies": {},
       "hash": "88e20505f87d57cbff5695be5f7baa35d626f619"
     },
+    "com.test.mini-game-framework-hot-update": {
+      "version": "file:com.test.mini-game-framework-hot-update",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.code-philosophy.hybridclr": "6.1.0"
+      }
+    },
     "com.unity.collab-proxy": {
       "version": "2.0.1",
       "depth": 0,

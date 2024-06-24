@@ -1,0 +1,15 @@
+{
+  "name": "com.test.mini-game-framework-hot-update",
+  "displayName": "MiniGameFramework.HotUpdate",
+  "description": "MiniGameFramework-HotUpdate",
+  "version": "0.0.1",
+  "license": "",
+  "keywords": [],
+  "author": {
+    "name": "Author"
+  },
+  "hideInEditor": false,
+  "dependencies": {
+    "com.code-philosophy.hybridclr": "6.1.0"
+  }
+}

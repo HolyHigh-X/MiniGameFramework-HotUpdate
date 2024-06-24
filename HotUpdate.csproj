@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{c1381b8e-cab0-eaca-b180-7f0b00678a9c}</ProjectGuid>
+    <ProjectGuid>{4a90779d-94ec-9119-e636-5663abd31a93}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -41,10 +41,9 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\HotUpdate\Hello.cs" />
-     <Compile Include="Assets\HotUpdate\Print.cs" />
-     <Folder Include="Assets\HotUpdate" />
-     <None Include="Assets\HotUpdate\HotUpdate.asmdef" />
+     <Compile Include="Packages\com.test.mini-game-framework-hot-update\Runtime\HotUpdate\Hello.cs" />
+     <Folder Include="Packages\com.test.mini-game-framework-hot-update\Runtime\HotUpdate" />
+     <None Include="Packages\com.test.mini-game-framework-hot-update\Runtime\HotUpdate\HotUpdate.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.20f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
@@ -301,34 +300,34 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.20f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Plastic.Newtonsoft.Json">
-     <HintPath>D:\WorkSpace\HotUpdate\Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+     <HintPath>D:\WorkSpace\MiniGameFramework-HotUpdate\Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
      </Reference>
      <Reference Include="LZ4">
-     <HintPath>D:\WorkSpace\HotUpdate\Library\PackageCache\com.code-philosophy.hybridclr@88e20505f8\Plugins\LZ4.dll</HintPath>
+     <HintPath>D:\WorkSpace\MiniGameFramework-HotUpdate\Library\PackageCache\com.code-philosophy.hybridclr@88e20505f8\Plugins\LZ4.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.YamlDotNet">
-     <HintPath>D:\WorkSpace\HotUpdate\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
+     <HintPath>D:\WorkSpace\MiniGameFramework-HotUpdate\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Plastic.Antlr3.Runtime">
-     <HintPath>D:\WorkSpace\HotUpdate\Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+     <HintPath>D:\WorkSpace\MiniGameFramework-HotUpdate\Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.TextureAssets">
-     <HintPath>D:\WorkSpace\HotUpdate\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+     <HintPath>D:\WorkSpace\MiniGameFramework-HotUpdate\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.IonicZip">
-     <HintPath>D:\WorkSpace\HotUpdate\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+     <HintPath>D:\WorkSpace\MiniGameFramework-HotUpdate\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
      </Reference>
      <Reference Include="unityplastic">
-     <HintPath>D:\WorkSpace\HotUpdate\Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+     <HintPath>D:\WorkSpace\MiniGameFramework-HotUpdate\Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
      </Reference>
      <Reference Include="log4netPlastic">
-     <HintPath>D:\WorkSpace\HotUpdate\Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+     <HintPath>D:\WorkSpace\MiniGameFramework-HotUpdate\Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
      </Reference>
      <Reference Include="dnlib">
-     <HintPath>D:\WorkSpace\HotUpdate\Library\PackageCache\com.code-philosophy.hybridclr@88e20505f8\Plugins\dnlib.dll</HintPath>
+     <HintPath>D:\WorkSpace\MiniGameFramework-HotUpdate\Library\PackageCache\com.code-philosophy.hybridclr@88e20505f8\Plugins\dnlib.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>D:\WorkSpace\HotUpdate\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     <HintPath>D:\WorkSpace\MiniGameFramework-HotUpdate\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="mscorlib">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.20f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>
@@ -706,10 +705,10 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.20f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
-     <HintPath>D:\WorkSpace\HotUpdate\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+     <HintPath>D:\WorkSpace\MiniGameFramework-HotUpdate\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
-     <HintPath>D:\WorkSpace\HotUpdate\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+     <HintPath>D:\WorkSpace\MiniGameFramework-HotUpdate\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
