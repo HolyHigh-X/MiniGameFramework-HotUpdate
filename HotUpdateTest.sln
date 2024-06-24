@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{5037ab7a-c491-1d7c-0eab-e7ddc42b29da}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotUpdate", "HotUpdate.csproj", "{3808c4ac-a6ba-d1e6-207c-16f9de375139}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5037ab7a-c491-1d7c-0eab-e7ddc42b29da}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5037ab7a-c491-1d7c-0eab-e7ddc42b29da}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3808c4ac-a6ba-d1e6-207c-16f9de375139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3808c4ac-a6ba-d1e6-207c-16f9de375139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
